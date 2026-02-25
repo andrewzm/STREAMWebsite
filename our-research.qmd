@@ -46,7 +46,7 @@ The three main families of nonparametric estimators for the power spectral densi
 :::
 
 ::: {.column width="40%" .research-image-col}
-![](images/spectral.png){}
+![](images/Spectral.png){}
 :::
 
 ::::
