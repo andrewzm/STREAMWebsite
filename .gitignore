@@ -5,3 +5,4 @@ _site/
 images/people.psd
 images/*old_logo*
 images/STREAM.png
+/.quarto/
