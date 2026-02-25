@@ -25,8 +25,6 @@ We emphasise principled Bayesian inference, neural-network methods, and reproduc
 
 
 
-
-
 :::: {.columns .feature-cards}
 
 ::: {.column width="33%"}
