@@ -1,0 +1,28 @@
+project:
+  type: website
+
+website:
+  title: "STREAM"
+  navbar:
+    logo: "images/STREAM-logo3.png"
+    logo-alt: "STREAM"
+    title: false
+    background: light
+    left:
+      - href: index.qmd
+        text: About
+      - href: our-research.qmd
+        text: Our Research
+      - href: our-people.qmd
+        text: Our People
+      # - href: news.qmd
+      #   text: News
+      - href: contact.qmd
+        text: Contact Us
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
+    page-layout: full

@@ -1,0 +1,73 @@
+---
+---
+
+:::{.stream-acronym}
+![](images/STREAM-logo3.png){.stream-logo}
+
+Spatio-Temporal Research for Environmental Analysis and Modelling
+:::
+
+**Spatio-Temporal Research for Environmental Analysis and Modelling (STREAM)** is a UNSW Sydney-based research group advancing the statistical and computational methodology needed to understand, monitor, and predict complex environmental phenomena. We develop spatio-temporal statistical models that capture dependence across space and time while remaining scalable for modern, high-dimensional datasets. Combining statistical theory, numerical methods, machine learning, and scientific computing, we provide robust inferential and predictive tools for environmental systems characterised by uncertainty, heterogeneity, and dynamic behaviour.
+
+Our work includes scalable frameworks—low-rank and multi-resolution representations, state-space models, and Bayesian hierarchical approaches—enabling analysis of massive datasets from satellite remote sensing and large sensor networks. We emphasise uncertainty quantification so predictions and forecasts can be used for risk assessment and decision-making. Applications we work in include air quality, climate dynamics, and oceanic processes, integrating physical knowledge through data assimilation and model–data fusion.
+
+We emphasise principled Bayesian inference, neural-network methods, and reproducible open-source workflows. Through collaboration with environmental scientists, government agencies, and industry, we aim to translate methodology into practical tools for environmental management and policy.
+
+<!-- 
+:::{.logo-placeholder}
+![](images/STREAM.png)
+::: -->
+
+
+<br>
+
+## Learn More
+
+
+
+
+
+:::: {.columns .feature-cards}
+
+::: {.column width="33%"}
+[![](images/research.jpg){.card-image}](our-research.qmd)
+
+:::{.card-title}
+[**Our Research**](our-research.qmd)
+:::
+
+Explore our projects in spatio-temporal modelling and environmental statistics.
+:::
+
+::: {.column width="33%"}
+[![](images/people2.png){.card-image}](our-people.qmd)
+
+:::{.card-title}
+[**Our People**](our-people.qmd)
+:::
+
+Meet the researchers in STREAM.
+:::
+
+<!-- ::: {.column width="25%"}
+[![](images/news.jpg){.card-image}](news.qmd)
+
+:::{.card-title}
+[**News**](news.qmd)
+:::
+
+Latest updates from the STREAM research group.
+:::
+-->
+
+::: {.column width="33%"}
+[![](images/contact.jpg){.card-image}](contact.qmd)
+
+:::{.card-title}
+[**Contact Us**](contact.qmd)
+:::
+
+Get in touch with the STREAM research group.
+:::
+
+::::

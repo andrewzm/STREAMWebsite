@@ -1,0 +1,360 @@
+/* STREAM - Spatio-Temporal Research for Environmental Analysis and Modelling */
+/* Elegant Academic Website Styles - Quarto */
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Source+Sans+3:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap');
+
+:root {
+  /* Override Bootstrap primary (blue) with light gray */
+  --bs-primary: #a0aec0;
+  --bs-primary-rgb: 160, 174, 192;
+  --color-deep-navy: #4a5568;
+  --color-warm-navy: #718096;
+  --color-accent: #a0aec0;
+  --color-cream: #faf8f5;
+  --color-muted: #6b7c8f;
+  --color-text: #2d3748;
+  --color-text-light: #4a5568;
+  --font-heading: 'EB Garamond', Georgia, serif;
+  --font-body: 'Source Sans 3', -apple-system, BlinkMacSystemFont, sans-serif;
+  --max-width: 720px;
+  --spacing-unit: 1.5rem;
+}
+
+/* Typography refinements for Quarto */
+body {
+  font-family: var(--font-body);
+  color: var(--color-text);
+  line-height: 1.65;
+}
+
+.quarto-title-block .title {
+  font-family: var(--font-heading);
+  color: var(--color-deep-navy);
+  letter-spacing: -0.01em;
+}
+
+/* STREAM acronym - large and centred */
+.stream-acronym {
+  font-size: 2.25rem;
+  font-weight: 600;
+  text-align: center;
+  margin: 0 0 2rem;
+  color: var(--color-deep-navy);
+  font-family: var(--font-heading);
+}
+
+.stream-acronym .stream-logo {
+  display: block;
+  margin: 0 auto 0.75rem;
+  max-height: 85px;
+  width: auto;
+}
+
+@media (max-width: 768px) {
+  .stream-acronym {
+    font-size: 1.5rem;
+    margin: 0 0 1.5rem;
+  }
+  
+  .stream-acronym .stream-logo {
+    max-height: 75px;
+  }
+}
+
+/* Navbar logo size */
+.navbar-logo {
+  max-height: 20px;
+}
+
+/* Logo */
+.logo-placeholder {
+  margin: 2.5rem 0;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo-placeholder img {
+  max-width: 960px;
+  max-height: 480px;
+  width: 100%;
+  object-fit: contain;
+}
+
+.logo-placeholder p {
+  font-size: 0.9rem;
+  color: var(--color-muted);
+  margin: 0.75rem 0 0;
+}
+
+/* Feature cards - four images with titles */
+.feature-cards {
+  margin-top: 3rem;
+  gap: 4rem;
+}
+
+.feature-cards .column {
+  text-align: center;
+  padding: 0 1.5rem;
+}
+
+.feature-cards .card-image {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.feature-cards .card-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin: 0 0 0.5rem;
+  color: var(--color-deep-navy);
+  font-family: var(--font-heading);
+}
+
+.feature-cards .card-title a {
+  color: inherit;
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
+
+.feature-cards .card-title a:hover {
+  opacity: 0.8;
+}
+
+.feature-cards .card-image {
+  transition: opacity 0.2s;
+}
+
+.feature-cards a:hover .card-image {
+  opacity: 0.9;
+}
+
+.feature-cards .column p {
+  margin: 0;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+/* Feature cards mobile: stack underneath each other */
+@media (max-width: 768px) {
+  .feature-cards .columns {
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 4rem;
+  }
+  
+  .feature-cards .column {
+    width: 100% !important;
+    padding-bottom: 1rem;
+  }
+}
+
+/* Research projects - text left, image right */
+.research-project {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid rgba(107, 124, 143, 0.2);
+}
+
+.research-project .columns {
+  gap: 2.5rem;
+}
+
+.research-project .research-text {
+  max-width: 42rem;
+  padding-right: 5rem;
+}
+
+.research-project .research-text p:first-child {
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: var(--font-heading);
+  color: var(--color-deep-navy);
+  margin-bottom: 0.75rem;
+}
+
+.research-project:last-child {
+  border-bottom: none;
+}
+
+.research-project .research-image {
+  width: 100%;
+  max-height: 220px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.research-project .read-more-link {
+  display: inline-block;
+  margin-top: 0.75rem;
+  font-weight: 600;
+  color: var(--color-deep-navy);
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: color 0.2s;
+}
+
+.research-project p:has(> a.read-more-link) {
+  margin: 0;
+  line-height: 1.4;
+}
+
+.research-project p:has(> a.read-more-link) + p:has(> a.read-more-link) {
+  margin-top: 0;
+}
+
+.research-project .read-more-link:hover {
+  color: var(--color-warm-navy);
+}
+
+/* Research projects mobile: stack text on top, image underneath */
+@media (max-width: 768px) {
+  .research-project .columns {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+  }
+  
+  .research-project .column {
+    width: 100% !important;
+  }
+  
+  .research-project .research-text {
+    max-width: none;
+    padding-right: 0;
+  }
+  
+  .research-project .research-image-col {
+    padding-left: 0;
+    margin-top: 2rem;
+  }
+  
+  .research-project .research-image-col img {
+    max-width: 100%;
+    max-height: 280px;
+  }
+  
+  .research-project .research-image {
+    max-height: 280px;
+    width: 100%;
+  }
+}
+
+/* Person cards - image left, text right */
+.person-card {
+  margin-bottom: 3rem;
+  padding-bottom: 3rem;
+  border-bottom: 1px solid rgba(107, 124, 143, 0.2);
+}
+
+.person-card:last-child {
+  border-bottom: none;
+}
+
+.person-photo {
+  width: 200px;
+  max-width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Mobile: stack image on top, full width */
+@media (max-width: 768px) {
+  .person-card .columns {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+  }
+  
+  .person-card .column {
+    width: 100% !important;
+  }
+  
+  .person-photo {
+    width: 100%;
+    max-width: 280px;
+    height: auto;
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+  }
+}
+
+/* Map container */
+.map-container {
+  margin: 1.5rem 0;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.map-container iframe {
+  display: block;
+}
+
+/* Enquiry form */
+.enquiry-form {
+  margin: 2rem 0;
+  max-width: 600px;
+}
+
+.enquiry-form .form-row {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.enquiry-form .form-row .form-group {
+  flex: 1;
+  min-width: 140px;
+}
+
+.enquiry-form .form-group {
+  margin-bottom: 1.25rem;
+}
+
+.enquiry-form label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.35rem;
+  color: var(--color-deep-navy);
+  font-size: 0.95rem;
+}
+
+.enquiry-form input,
+.enquiry-form textarea {
+  width: 100%;
+  padding: 0.6rem 0.75rem;
+  border: 1px solid rgba(107, 124, 143, 0.3);
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: 1rem;
+  transition: border-color 0.2s;
+}
+
+.enquiry-form input:focus,
+.enquiry-form textarea:focus {
+  outline: none;
+  border-color: var(--color-accent);
+}
+
+.enquiry-form textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.enquiry-form .form-submit {
+  padding: 0.6rem 1.5rem;
+  background: var(--color-deep-navy);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.enquiry-form .form-submit:hover {
+  opacity: 0.9;
+}

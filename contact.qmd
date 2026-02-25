@@ -1,0 +1,45 @@
+---
+title: "Contact Us"
+---
+
+Get in touch with the STREAM research group.
+
+**Address**
+
+Spatio-Temporal Research for Environmental Analysis and Modelling (STREAM)  
+Anita B. Lawrence Centre (H13), room 6103  
+University Mall, UNSW Sydney, Kensington NSW 2033
+
+::: {.map-container}
+<iframe src="https://www.google.com/maps?q=Anita+B.+Lawrence+Centre+H13+UNSW+Kensington+NSW+2033&z=17&output=embed" width="100%" height="350" style="border:0; border-radius:8px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Anita B. Lawrence Centre (H13) UNSW"></iframe>
+:::
+
+**Email:** [a.zammit_mangion@unsw.edu.au](mailto:a.zammit_mangion@unsw.edu.au)
+
+---
+
+**Enquiry Form**
+
+<div class="enquiry-form">
+<form action="https://formspree.io/f/xaqdqdwn" method="POST">
+<div class="form-row">
+<div class="form-group">
+<label for="first-name">First name</label>
+<input type="text" id="first-name" name="first_name" required>
+</div>
+<div class="form-group">
+<label for="last-name">Last name</label>
+<input type="text" id="last-name" name="last_name" required>
+</div>
+</div>
+<div class="form-group">
+<label for="email">Email</label>
+<input type="email" id="email" name="email" required>
+</div>
+<div class="form-group">
+<label for="message">Message</label>
+<textarea id="message" name="message" rows="5" required></textarea>
+</div>
+<button type="submit" class="form-submit">Send</button>
+</form>
+</div>
