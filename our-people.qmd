@@ -2,7 +2,7 @@
 title: "Our People"
 ---
 
-Meet the researchers at the core of the STREAM research group.
+Meet the researchers of STREAM.
 
 :::{.person-card}
 :::: {.columns .align-items-center}
@@ -14,7 +14,7 @@ Meet the researchers at the core of the STREAM research group.
 ::: {.column width="75%"}
 **Andrew Zammit-Mangion** · *Associate Professor, Group Lead (UNSW)*
 
-Andrew Zammit-Mangion is an Associate Professor in the School of Mathematics and Statistics at UNSW Sydney. His research interests lie in spatio-temporal modelling and the computational tools that enable it. His work spans variational Bayesian methods for spatio-temporal models, large-scale data fusion, and nonstationary spatial and spatio-temporal modelling. Since 2018, he has focused on deep learning methods in spatio-temporal statistics under an ARC Discovery Early Career Research Award (DECRA). He is currently Chief Investigator on ARC projects on greenhouse gas source-sink estimation, Securing Antarctica's Environmental Future (SAEF), and the TIDE Industrial Transformation Research Hub, where he also serves as Data Science Coordinator.
+Andrew Zammit-Mangion is an Associate Professor in the School of Mathematics and Statistics at UNSW Sydney with research interests in spatio-temporal modelling and the computational tools that enable it. His work spans variational Bayesian methods for spatio-temporal models, large-scale data fusion, and nonstationary spatial and spatio-temporal modelling. Since 2018, he has focused on deep learning methods in spatio-temporal statistics under an ARC Discovery Early Career Research Award (DECRA). He is currently Chief Investigator on ARC projects on greenhouse gas source-sink estimation, Securing Antarctica's Environmental Future (SAEF), and the TIDE Industrial Transformation Research Hub, where he also serves as Data Science Coordinator.
 
 [<i class="bi bi-envelope" aria-label="Email"></i>](mailto:a.zammit_mangion@unsw.edu.au) · [Google Scholar](https://scholar.google.com/citations?user=PHYtnUUAAAAJ&hl=en) · [LinkedIn](https://www.linkedin.com/in/andrewzammitmangion/?originalSubdomain=au)
 :::
@@ -86,7 +86,7 @@ Yan Gong is currently a Visiting Assistant Professor of Statistics and Data Scie
 ::: {.column width="75%"}
 **Bradley Wakefield** · *Research Fellow (UOW)*
 
-Dr Bradley Wakefield is a Research Fellow in Statistical Data Science at the University of Wollongong, working with the ARC Industrial Transformation Research Hub for Transforming Energy Infrastructure through Digital Engineering (TIDE). He completed a PhD in statistics at the University of Wollongong, where his research focused on statistical disclosure control and multivariate density estimation. He has previously worked as a statistical consultant, collaborating with researchers across a wide range of disciplines on study design, data analysis, and the communication of quantitative results. In his current role, he works with academic and industry partners through TIDE to develop statistical tools that support the development of offshore energy infrastructure. His research interests include Bayesian statistics, spatial modelling, and statistical computing, with applications in geological and environmental statistics.
+Bradley Wakefield is a Research Fellow in Statistical Data Science at the University of Wollongong, working with the ARC Industrial Transformation Research Hub for Transforming Energy Infrastructure through Digital Engineering (TIDE). He completed a PhD in statistics at the University of Wollongong, where his research focused on statistical disclosure control and multivariate density estimation. He has previously worked as a statistical consultant, collaborating with researchers across a wide range of disciplines on study design, data analysis, and the communication of quantitative results. In his current role, he works with academic and industry partners through TIDE to develop statistical tools that support the development of offshore energy infrastructure. His research interests include Bayesian statistics, spatial modelling, and statistical computing, with applications in geological and environmental statistics.
 
 [<i class="bi bi-envelope" aria-label="Email"></i>](mailto:bradleyw@uow.edu.au) · [UOW Scholar](https://scholars.uow.edu.au/bradley-wakefield) · [LinkedIn](https://au.linkedin.com/in/bradley-wakefield-0a2474285)
 :::
@@ -104,7 +104,7 @@ Dr Bradley Wakefield is a Research Fellow in Statistical Data Science at the Uni
 ::: {.column width="75%"}
 **Pratik Nag** · *Research Fellow (UOW)*
 
-Pratik Nag is a Research Fellow at the National Institute of Applied Statistical Research Australia (NIASRA), University of Wollongong, where he works with Prof. Noel Cressie, Prof. Andrew Zammit Mangion, and Prof. Sumeetpal Singh. His research focuses on dynamic spatio-temporal modeling for noisy and incomplete data, with particular emphasis on Fourier Neural Operators and the development of fully Bayesian frameworks for high-dimensional models. He completed his PhD at King Abdullah University of Science and Technology (KAUST) under the supervision of Prof. Ying Sun. His broader research interests lie in the development of advanced statistical and machine learning methodologies, especially for predictive modeling and uncertainty quantification. He is particularly interested in coupling neural networks with traditional statistical paradigms to develop efficient, data-driven solutions to real-world problems, and is deeply motivated to explore innovative approaches to addressing complex challenges in modern data science.
+Pratik Nag is a Research Fellow in the School of Mathematics and Physics at the University of Wollongong, where he works with Prof. Noel Cressie, Prof. Andrew Zammit Mangion, and Prof. Sumeetpal Singh. His research focuses on dynamic spatio-temporal modeling for noisy and incomplete data, with particular emphasis on Fourier Neural Operators and the development of fully Bayesian frameworks for high-dimensional models. He completed his PhD at King Abdullah University of Science and Technology (KAUST) under the supervision of Prof. Ying Sun. His broader research interests lie in the development of advanced statistical and machine learning methodologies, especially for predictive modeling and uncertainty quantification. He is particularly interested in coupling neural networks with traditional statistical paradigms to develop efficient, data-driven solutions to real-world problems, and is deeply motivated to explore innovative approaches to addressing complex challenges in modern data science.
 
 [<i class="bi bi-envelope" aria-label="Email"></i>](mailto:pnag@uow.edu.au) · [Google Scholar](https://scholar.google.com/citations?user=rMB6VwYAAAAJ) · [LinkedIn](https://www.linkedin.com/in/pratik-nag-stats/)
 :::
@@ -122,9 +122,7 @@ Pratik Nag is a Research Fellow at the National Institute of Applied Statistical
 ::: {.column width="75%"}
 **Daniel Fynn** · *PhD Candidate (UOW)*
 
-Daniel Fynn is a PhD candidate in Applied Statistics at the University of Wollongong. His research focuses on inference for high-dimensional time-series dependence models, with particular emphasis on copula-based methods.
-
-He is currently finalising a paper on fast amortised inference for time-series copula models using neural networks. In parallel, he is developing a real-time prediction framework for wave conditions under the TIDE project, based on stationary Markov vine copula models.
+Daniel Fynn is a PhD candidate at the University of Wollongong, supervised by David Gunawan and Andrew Zammit-Mangion. His research focuses on inference for high-dimensional time-series dependence models, with particular emphasis on copula-based methods. He is currently working on fast amortised inference for time-series copula models using neural networks. In parallel, he is developing a real-time prediction framework for wave conditions under the TIDE project, based on stationary Markov vine copula models.
 
 [<i class="bi bi-envelope" aria-label="Email"></i>](mailto:df390@uowmail.edu.au)
 :::
