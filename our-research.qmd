@@ -14,7 +14,7 @@ Our research focuses on spatio-temporal modelling and environmental applications
 ::: {.column width="55%" .research-text}
 **AI-enhanced spatio-temporal modelling and forecasting**
 
-Complex environmental systems—such as weather patterns, ocean dynamics, and atmospheric phenomena—are inherently high-dimensional and nonlinear. We use deep learning to model these systems in ways that would be intractable with classical methods, enabling both more accurate representations of complex dynamics and dramatically faster computations. Crucially, our approach is probabilistic: we produce full predictive distributions rather than point forecasts, rigorously quantifying uncertainty in our predictions. This uncertainty quantification is essential for risk assessment and decision-making under environmental uncertainty.
+Complex environmental systems—such as weather patterns, ocean dynamics, and atmospheric phenomena—are inherently high-dimensional and nonlinear. We use deep learning to model these systems in ways that would be intractable with classical methods, enabling both more accurate representations of complex dynamics and dramatically faster computations. Crucially, our approaches are probabilistic: we produce full predictive distributions rather than point forecasts, rigorously quantifying uncertainty in our predictions. This uncertainty quantification is essential for risk assessment and decision-making under environmental uncertainty.
 
 [→ Sea-surface temperature nowcasting](https://www.sciencedirect.com/science/article/abs/pii/S2211675320300026){.read-more-link}
 
@@ -30,27 +30,6 @@ Complex environmental systems—such as weather patterns, ocean dynamics, and at
 
 
 
-
-
-:::{.research-project}
-:::: {.columns .align-items-center}
-
-::: {.column width="55%" .research-text}
-**Modern spectral analysis**
-
-The three main families of nonparametric estimators for the power spectral density—lag-window, multitaper, and Welch—are statistically consistent, yet each can suffer from nonignorable bias when estimating from finite samples. Welch’s method, which averages periodograms over overlapping segments, faces a bias–variance trade-off: more segments reduce variance but increase bias. We have developed novel debiasing methods that maintain computational complexity and asymptotic consistency while substantially improving finite-sample performance. This theory extends to the broader family of quadratic estimators, enabling bias correction for lag-window and multitaper estimators and their combinations, and works in conjunction with any tapers and lag-sequences designed for bias reduction.
-
-[→ Debiased spectral estimation](https://academic.oup.com/biomet/article/111/4/1313/7703280){.read-more-link}
-
-[→ Bias correcting spectral estimators](https://academic.oup.com/biomet/article/112/3/asaf033/8121249){.read-more-link}
-:::
-
-::: {.column width="40%" .research-image-col}
-![](images/Spectral.png){}
-:::
-
-::::
-:::
 
 :::{.research-project}
 :::: {.columns .align-items-center}
@@ -78,27 +57,9 @@ Risk assessment of natural hazards—such as heatwaves, floods, and wildfires—
 :::: {.columns .align-items-center}
 
 ::: {.column width="55%" .research-text}
-**Survival analysis for time-to-event data**
-
-Many environmental and medical processes are naturally described by the time until a critical event occurs, including mortality, habitat loss, ecological collapse, pathogen exposure, disease progression or system failure. Such data are inherently incomplete because events may be right-censored, interval-censored, or subject to left truncation, and observation windows often vary across individuals, sites or regions. We develop semi-parametric survival models for time-to-event data that explicitly account for censoring and truncation while retaining the flexibility of hazard-based regression without imposing restrictive parametric assumptions. Our work advances survival analysis by combining flexible hazard modelling, penalized likelihood estimation and time-varying or nonlinear effects, enabling interpretable and reliable risk assessment in complex medical and environmental systems.
-
-[→ Optimisation of accelerated failure time models](https://arxiv.org/abs/2403.12332){.read-more-link}
-:::
-
-::: {.column width="40%" .research-image-col}
-![](images/survival_project.png){}
-:::
-
-::::
-:::
-
-:::{.research-project}
-:::: {.columns .align-items-center}
-
-::: {.column width="55%" .research-text}
 **Neural networks for accelerated inference**
 
-Estimating parameters in a statistical model is often the computational bottleneck of a spatio-temporal data analysis. Further, often computations often need to be done several times (millions of times) daily. For this reason, we have been investigating deep learning methods for fast approximate inference in large-scale spatio-temporal models, to enable real-time environmental monitoring and forecasting in classically intractable settings.  These tools are lightning fast, do not require knowledge of the likelihood function, and can yield accurate inferences.
+Estimating parameters in a statistical model is often the computational bottleneck of a spatio-temporal data analysis. Further, often computations often need to be done several times (e.g., millions of times) daily. For this reason, we have been investigating deep learning methods for fast approximate inference in large-scale spatio-temporal models, to enable real-time environmental monitoring and forecasting in classically intractable settings.  These tools are lightning fast, do not require knowledge of the likelihood function, and can yield accurate inferences.
 
 [→ Neural networks for Bayes estimation](https://www.tandfonline.com/doi/full/10.1080/00031305.2023.2249522){.read-more-link}
 
@@ -118,6 +79,46 @@ Estimating parameters in a statistical model is often the computational bottlene
 
 ::::
 :::
+
+:::{.research-project}
+:::: {.columns .align-items-center}
+
+::: {.column width="55%" .research-text}
+**Modern spectral analysis**
+
+The three main families of nonparametric estimators for the power spectral density—lag-window, multitaper, and Welch—are statistically consistent, yet each can suffer from nonignorable bias when estimating from finite samples. Welch’s method, which averages periodograms over overlapping segments, faces a bias–variance trade-off: more segments reduce variance but increase bias. We have developed novel debiasing methods that maintain computational complexity and asymptotic consistency while substantially improving finite-sample performance. This theory extends to the broader family of quadratic estimators, enabling bias correction for lag-window and multitaper estimators and their combinations, and works in conjunction with any tapers and lag-sequences designed for bias reduction.
+
+[→ Debiased spectral estimation](https://academic.oup.com/biomet/article/111/4/1313/7703280){.read-more-link}
+
+[→ Bias correcting spectral estimators](https://academic.oup.com/biomet/article/112/3/asaf033/8121249){.read-more-link}
+:::
+
+::: {.column width="40%" .research-image-col}
+![](images/Spectral.png){}
+:::
+
+::::
+:::
+
+:::{.research-project}
+:::: {.columns .align-items-center}
+
+::: {.column width="55%" .research-text}
+**Survival analysis for time-to-event data**
+
+Many environmental processes are naturally described by the time until a critical event occurs, including mortality, habitat loss, ecological collapse, pathogen exposure, disease progression or system failure. Such data are inherently incomplete because events may be right-censored, interval-censored, or subject to left truncation, and observation windows often vary across individuals, sites or regions. We develop semi-parametric survival models for time-to-event data that explicitly account for censoring and truncation while retaining the flexibility of hazard-based regression without imposing restrictive parametric assumptions. Our work advances survival analysis by combining flexible hazard modelling, penalized likelihood estimation and time-varying or nonlinear effects, enabling interpretable and reliable risk assessment in complex environmental systems.
+
+[→ Optimisation of accelerated failure time models](https://arxiv.org/abs/2403.12332){.read-more-link}
+:::
+
+::: {.column width="40%" .research-image-col}
+![](images/survival_project.png){}
+:::
+
+::::
+:::
+
+
 
 :::{.research-project}
 :::: {.columns .align-items-center}
