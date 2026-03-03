@@ -147,3 +147,21 @@ Vinicius Ricardo Riffel is a PhD student at the University of Wollongong, superv
 
 ::::
 :::
+
+:::{.person-card}
+:::: {.columns .align-items-center}
+
+::: {.column width="25%"}
+![](images/Marcus.jpeg){.person-photo}
+:::
+
+::: {.column width="75%"}
+**Marcus Dyson** · *PhD Student (UWA)*
+
+Marcus Dyson is a PhD candidate at the University of Western Australia under the supervision of Lachlan Astfalck, Thomas Stemler, and Edward Cripps. He is affiliated with the ARC Industrial Transformation Research Hub for Transforming Energy Infrastructure through Digital Engineering (TIDE). His research focuses on constructing error minimising estimators of the power spectral density, including for irregularly observed data. Alongside this work, he is developing a software suite in Python for modern spectral analysis.
+
+[<i class="bi bi-envelope" aria-label="Email"></i>](mailto:marcus.dyson@uwa.edu.au) · [Google Scholar](https://scholar.google.com/citations?user=8JqFimsAAAAJ&hl=en&oi=ao) · [LinkedIn](https://www.linkedin.com/in/marcus-dyson/)
+:::
+
+::::
+:::
