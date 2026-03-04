@@ -165,3 +165,21 @@ Marcus Dyson is a PhD candidate at the University of Western Australia under the
 
 ::::
 :::
+
+:::{.person-card}
+:::: {.columns .align-items-center}
+
+::: {.column width="25%"}
+![](images/Max.jpeg){.person-photo}
+:::
+
+::: {.column width="75%"}
+**Max Coten** · *PhD Student (UWA)*
+
+Max Coten is a Westpac Fellow and PhD Candidate at the University of Western Australia under the supervision of Lachlan Astfalck and Nicole Jones. He works at the interface of spatio-temporal statistical methods and oceanography applications. He is an avid open water swimmer and has won the Rottnest Channel Swim and competed at the world 10km championships.
+
+[<i class="bi bi-envelope" aria-label="Email"></i>](mailto:23354577@student.uwa.edu.au) · [LinkedIn](https://au.linkedin.com/in/maxcoten)
+:::
+
+::::
+:::
