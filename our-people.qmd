@@ -170,7 +170,7 @@ Marcus Dyson is a PhD candidate at the University of Western Australia under the
 :::: {.columns .align-items-center}
 
 ::: {.column width="25%"}
-![](images/Max.jpeg){.person-photo}
+![](images/Max.png){.person-photo}
 :::
 
 ::: {.column width="75%"}
