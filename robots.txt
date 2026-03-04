@@ -1,1 +1,1 @@
-Sitemap: https://andrewzm.github.io/STREAMWebsite/sitemap.xml
+Sitemap: https://streamresearchgroup.org/sitemap.xml
