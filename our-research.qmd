@@ -94,7 +94,7 @@ Spectral methods are a powerful class of analysis that allow for analysis in nea
 :::
 
 ::: {.column width="40%" .research-image-col}
-![](images/Spectral3.png){}
+![](images/Spectral3.jpg){}
 :::
 
 ::::
