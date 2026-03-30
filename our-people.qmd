@@ -66,7 +66,7 @@ Aishwarya Bhaskaran is a Lecturer in the School of Mathematics and Statistics at
 :::
 
 ::: {.column width="75%"}
-**Yan Gong** · *Lecturer (UNSW)*
+**Yan Gong** · *Visiting Assistant Professor (MBZUAI)*
 
 Yan Gong is currently a Visiting Assistant Professor of Statistics and Data Science at MBZUAI. Her research interests include developing and applying modern statistical methodologies to address complex, real-world problems in financial risk, extreme weather events, and public health. Her work spans statistics of extremes, spatial statistics, causal inference, Bayesian inference, and deep learning. Prior to joining MBZUAI, she held postdoctoral positions at Harvard T. H. Chan School of Public Health and Imperial College London. She received her Ph.D. in Statistics from KAUST in 2023, under the supervision of Professor Raphaël Huser. She currently serves as a founding organizer of the Spatio-Temporal Statistics and Data Science Community (STSDS), an international network advancing research in spatio-temporal statistics and data science.
 
